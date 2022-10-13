@@ -1,0 +1,35 @@
+<h2>Insira os dados do novo produto:</h2>
+<form class="cadastro">
+  <mat-card>
+    <mat-card-content>
+      <mat-form-field>
+        <input matInput placeholder="Nome" name="nome" [(ngModel)]="produto.nome" />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Preço" name="preco" [(ngModel)]="produto.preco" />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Foto" name="foto" [(ngModel)]="produto.foto" />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Desconto" name="desconto" [(ngModel)]="produto.desconto" />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Descrição" name="descricao" [(ngModel)]="produto.descricao" />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Categoria" name="categoria" [(ngModel)]="produto.categoria" />
+      </mat-form-field>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button mat-raised-button (click)="salvarProduto()" color="primary"><a href="cadastro/produto">Voltar</a></button>
+      <button mat-raised-button (click)="salvarProduto()" color="primary">Salvar</button>
+    </mat-card-actions>
+  </mat-card>
+</form>

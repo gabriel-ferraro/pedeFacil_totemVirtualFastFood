@@ -1,0 +1,20 @@
+.carrinhoVazio,
+button {
+  height: 100px;
+  font-size: 40px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.carrinhoVazio button {
+  height: 80px;
+  width: 450px;
+  margin-top: 60px;
+  font-size: 30px;
+  border-radius: 45px;
+  background-color: green;
+  color: white;
+}

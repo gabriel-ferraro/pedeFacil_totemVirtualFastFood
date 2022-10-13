@@ -1,0 +1,30 @@
+.resumo-carrinho{
+    display: grid;
+    justify-items: center;
+    bottom: 0;
+}
+.resumo-botoes{
+    background-color: rgba(240, 240, 240, .7);
+    padding: 8px;
+    bottom: 0;
+    position: fixed;
+    border-radius: 15px;
+}
+p{
+    font-weight: bold;
+    font-size: 1em;
+    font-style: normal;
+}
+button{
+    border-radius: 25px;
+    margin: 5px 5px;
+    width: 35em;
+    color: white;
+    display: inline-block;
+}
+.confirmar{
+    background-color: green;
+}
+.cancelar{
+    background-color: red;   
+}

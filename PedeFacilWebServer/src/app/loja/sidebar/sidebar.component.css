@@ -1,0 +1,24 @@
+.sidebar {
+  box-sizing: border-box;
+  width: 250px;
+  padding-left: 10px;
+}
+img {
+  height: 65px;
+  width: 65px;
+}
+.cat {
+  float: left;
+  margin-top: 20px;
+  padding-top: 70px;
+}
+p {
+  font-weight: bold;
+  text-transform: uppercase;
+  float: right;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.sidebar div {
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+div,
+mat-card {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+mat-card {
+  height: 550px;
+  width: 600px;
+  margin-top: 50px;
+}
+button {
+  border-radius: 35px;
+  color: white;
+  padding: 6px;
+}
+.confirmar {
+  background-color: green;
+}
+.cancelar {
+  background-color: red;
+}

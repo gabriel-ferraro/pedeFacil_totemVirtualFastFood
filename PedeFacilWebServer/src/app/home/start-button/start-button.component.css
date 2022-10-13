@@ -1,0 +1,17 @@
+a {
+  height: 15%;
+  width: 100%;
+  position: relative;
+  margin-top: 550px;
+  bottom: 0;
+}
+h1 {
+  font-size: 3.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  line-height: 100px;
+  padding-top: 203px;
+  text-shadow: 3px 3px 3px rgba(114, 114, 114, 0.657);
+}

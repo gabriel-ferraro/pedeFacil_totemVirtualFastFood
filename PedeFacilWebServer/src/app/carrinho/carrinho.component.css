@@ -1,0 +1,32 @@
+.wrapper{
+    padding: 40px
+}
+mat-toolbar{
+    height: 130px;
+    border-top: 1px solid #b9bbb6;
+}
+.toolbar{
+    display: grid;
+    justify-items: center;
+    bottom: 0;
+}
+table {
+    width: 100%;
+}
+p{
+    font-style: normal;
+    font-size: 0.8em;
+}
+button{
+    border-radius: 25px;
+    margin: 5px 5px;
+    width: 35em;
+    color: white;
+    display: inline-block;
+}
+.confirmar{
+    background-color: green;
+}
+.cancelar{
+    background-color: red;   
+}

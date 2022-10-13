@@ -1,0 +1,19 @@
+<div>
+  <mat-card>
+    <h1>Escolha sua forma de pagamento</h1>
+    <mat-form-field appearance="fill">
+      <mat-label>Escolher:</mat-label>
+      <mat-select disableRipple>
+        <mat-option value="1">Crédito</mat-option>
+        <mat-option value="2">Débito</mat-option>
+        <mat-option value="3">Outro</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button mat-raised-button class="confirmar" routerLink="/realizarPagamento">
+      Confirmar
+    </button>
+    <button mat-raised-button class="cancelar" routerLink="/carrinho">
+      Cancelar
+    </button>
+  </mat-card>
+</div>

@@ -1,0 +1,42 @@
+export const Produtos = [
+    {
+        id: 0,
+        nome: 'Cheeseburguer',
+        descricao: 'Hamburguer com queijo, tomate, alface e molho especial',
+        foto: '../assets/img/hamburguer-png.png',
+        preco: 15,
+        desconto: 0,
+        qtde: 0,
+        categoria: "lanches",
+    },
+    {
+        id: 1,
+        nome: 'Hamburguer Duplo Cheddar',
+        descricao: '2 Hamburgueres, queijo cheddar e bacon',
+        foto: '../assets/img/duplo-cheddar.png',
+        preco: 25,
+        desconto: 0,
+        qtde: 0,
+        categoria: "lanches",
+    },
+    {
+        id: 2,
+        nome: 'Hamfrango',
+        descricao: 'Sanduiche de frango com tomate, alface e champignon',
+        foto: '../assets/img/hamburguer-frango.png',
+        preco: 18,
+        desconto: 0,
+        qtde: 0,
+        categoria: "lanches",
+    },
+    {
+        id: 3,
+        nome: 'Quarteirão',
+        descricao: 'Hamburguer de 115g, com duas fatias de queijo, cebola e picles',
+        foto: '../assets/img/quarteirao.png',
+        preco: 20,
+        desconto: 0,
+        qtde: 0,
+        categoria: "lanches",
+    }
+];

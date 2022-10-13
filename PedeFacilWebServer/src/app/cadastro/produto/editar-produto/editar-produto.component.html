@@ -1,0 +1,38 @@
+<h2>Editar produto:</h2>
+<form>
+  <mat-card>
+    <mat-card-content>
+
+      <mat-form-field>
+        <input matInput placeholder="Nome" name="nome" [(ngModel)]="request.nome">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Preço" name="preco" [(ngModel)]="request.preco">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Foto" name="foto" [(ngModel)]="request.foto">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Desconto" name="desconto" [(ngModel)]="request.desconto">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Descrição" name="descricao" [(ngModel)]="request.descricao">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Categoria" name="categoria" [(ngModel)]="request.categoria">
+      </mat-form-field>
+
+    </mat-card-content>
+    
+    <mat-card-actions>
+      <button mat-raised-button color="primary"><a href="cadastro/produto">Voltar</a></button>
+      <button mat-raised-button (click)="atualizar()" color="primary">Editar</button>
+    </mat-card-actions>
+
+  </mat-card> 
+</form>

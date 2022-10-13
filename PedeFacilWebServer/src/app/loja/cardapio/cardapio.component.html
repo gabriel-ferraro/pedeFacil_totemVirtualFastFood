@@ -1,0 +1,25 @@
+<section class="cards-cardapio">
+  <mat-card class="card-cardapio" *ngFor="let produto of produtos">
+      <mat-card-header>
+        <div mat-card-avatar class="card-header-image"></div>
+        <mat-card-title>{{ produto.nome }}</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src="{{ produto.foto }}" alt="Foto do produto" />
+      <mat-card-content>
+        <p>
+          {{ produto.descricao }}
+      </p>
+    </mat-card-content>
+    <mat-card-actions class="card-actions">
+      <h3 class="preco">{{ produto.preco | formatoReal: "BRL" }}</h3>
+      <button mat-button (click)="removerDoCarrinho(produto)">
+        <mat-icon class="remover">keyboard_arrow_down</mat-icon>
+      </button>
+      <button mat-button (click)="adicionarAoCarrinho(produto)">
+        <mat-icon class="adicionar">keyboard_arrow_up</mat-icon>
+      </button>
+      <input class="seletor-item" type="text" readonly="readonly" [value]="produto.qtde" />
+    </mat-card-actions>
+  </mat-card>
+</section>
+<div class="espaco"></div>
