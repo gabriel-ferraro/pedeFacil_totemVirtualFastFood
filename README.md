@@ -1,15 +1,11 @@
 ## Projeto Pedefacil
-Simulando um sistema de totem de pedidos de uma rede de fastFood
+Simulando um sistema de totem de pedidos de uma rede de fastFood.
 
 ## Integrantes
 Gabriel Ferraro<br>
 Athos Matovani
 
-## Rodar webApi
-
-npm start em ServidorAPIs
-
-## Homepage
+## Menu de seleção do "totem"
 
 ![plot](./homePage.png)
 
@@ -27,6 +23,10 @@ npm start em ServidorAPIs
 - WebServer Angular
 - Visual com Angular Material
 - Base de dados SQL server
+
+### Rodar webApi
+
+npm start no folder ServidorAPIs.
 
 ### 1 Comandos para criação do projeto Web API
 dotnet new webapi -o PedeFacil<br>
